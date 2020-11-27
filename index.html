@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <title>Blog ni Bruce Wayne</title>
 </head>
 <body>
+    <br><br><br>
     <div class="container">
         <div class="row">
             <div class="col-1"></div>
@@ -19,10 +21,13 @@
         </div>
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-6">
+            <div class="col-5">
                 <small style="font-size: 1.5rem;">Harvey Felipe</small>
             </div>
-            <div class="col-2"></div>
+            <div class="col-1"></div>
+            <div class="col-2 text-right">
+                <small style="font-size: 1.3rem;">I-share:</small>
+            </div>
             <div class="col-0.5"><a href="https://twitter.com/share?url=https://harveydfelipe.github.io&amp;text=Blog%20ni%20Bruce%20Wayne&amp;hashtags=NgayongPasko" target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" width="60%"/>
             </a></div>
@@ -36,7 +41,14 @@
                 <small class="text-muted" style="font-size: 1rem;">Hulyo 28, 2020 · Anim na minutong pagbasa</small>
             </div>
         </div>
-        
+        <br>
+        <div class="row text-right">
+            <div class="col-1"></div>
+            <div class="col-1">
+                <img id="heart" src="heart.png" onclick="like(this)" alt="like" width="30%">
+            </div>
+            <div class="col-0.5" id="count">4,989</div>
+        </div>
     </div>
 
     <div class="container">
@@ -184,7 +196,7 @@
     </div>
 
     <br>
-    
+
     <div class="text-center">
         <a href="https://www.pinterest.ph/pin/517491813432392879/"><img src="star drawing.png" alt="Tala" width="10%"></a>
     </div>
