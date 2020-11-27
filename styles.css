@@ -1,12 +1,13 @@
-.link {
+a {
     text-decoration: none;
     display: inline-block;
     text-align: center;
 }
 
-.link:hover {
+a:hover {
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 
 .header {
@@ -14,7 +15,8 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    width: 70vw;
-    height: 200px;
+    width: 60vw;
+    height: 27.5vw;
+    margin: 5vh auto 0;
 }
 
